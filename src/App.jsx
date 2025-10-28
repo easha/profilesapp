@@ -20,7 +20,6 @@ function App() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           {'Sushi Go'}<span role="img" aria-label="thumbs up">👍</span>{count}
-          count is {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
